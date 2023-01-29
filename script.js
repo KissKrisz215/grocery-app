@@ -45,7 +45,7 @@ function editListItem(id){
 function deleteItem(id){
   const elementId = document.getElementById(id);
   elementId.remove();
-    if(list.childNodes.length == 0){
+    if(list.childNodes.length <= 1){
     clearSection.innerHTML = '';
   }
   containerTop.innerHTML = `<p class="text-red bg-red">Item Removed!</p>`;
