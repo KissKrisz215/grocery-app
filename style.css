@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+  body{
+    background-color:#f1f5f8 !important;
+  }
+  main > div{
+    height:400px;
+  }
+  .bg-lightgrey{
+    background-color:#f1f5f8 !important;
+  }
+  .bg-red{
+    background-color:#E95042;
+  }
+  .text-red{
+    color:#7F0C02;
+  }
+  .bg-green{
+    background-color:#CADF9E;
+  }
+  .text-green{
+    color:#2F4205;
+  }
+  
